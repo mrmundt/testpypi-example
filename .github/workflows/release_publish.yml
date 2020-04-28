@@ -1,1 +1,1 @@
-name: Release Test (publish)on:  release:     types:    - published    steps:  release-publish:    name: release-publish    runs-on: ubuntu-latest    steps:    - run: |        echo "NEW RELEASED PUBLISHED"
+name: Release Test (publish)on:  release:     types:    - published    jobs:  release-publish:    name: release-publish    runs-on: ubuntu-latest    steps:    - run: |        echo "NEW RELEASED PUBLISHED"

@@ -1,1 +1,1 @@
-name: Release Test (Create)on:  release:     types:    - createdsteps:  release-create:    name: release-create    runs-on: ubuntu-latest    steps:    - run: |        echo "NEW RELEASE CREATED"
+name: Release Test (Create)on:  release:     types:    - createdjobs:  release-create:    name: release-create    runs-on: ubuntu-latest    steps:    - run: |        echo "NEW RELEASE CREATED"
